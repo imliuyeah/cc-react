@@ -82,7 +82,7 @@ const Nav: React.FC = () => {
   return (
     <Menu
       onClick={onClick}
-      style={{ width: 256 }}
+      style={{ height: '100vh' }}
       defaultSelectedKeys={['home']}
       defaultOpenKeys={['home']}
       mode="inline"
